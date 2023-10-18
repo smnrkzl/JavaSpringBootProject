@@ -23,7 +23,7 @@ public class Users {
 	private String namesurname;
 	private String phonenumber;
 	private String mail;
-	//veri tiplerini yazdığın kağitta 'gruplar' adından bir veri var bunun nereye bağlı olduğuna bak sistemden
+	//veri tiplerini yazdığın kağitta 'gruplar' adından bir veri var bunun nereye bağlı olduğuna bak sistemd
 	public Long getId() {
 		return id;
 	}
