@@ -1,4 +1,4 @@
-package com.hoaxify.ws.entities;
+package com.education.ws.entities;
 
 public class UserPanel {
    

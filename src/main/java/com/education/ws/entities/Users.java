@@ -1,4 +1,4 @@
- package com.hoaxify.ws.entities;
+ package com.education.ws.entities;
 
 
 import java.util.Date;

@@ -1,11 +1,10 @@
-package com.hoaxify.ws.repos;
+package com.education.ws.repos;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-
-import com.hoaxify.ws.entities.Manager;
+import com.education.ws.entities.Manager;
 
 public interface ManagerRepository extends JpaRepository<Manager,Long> {
 
