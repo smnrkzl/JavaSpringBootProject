@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.education.ws.entities.ExamCalendar;
-import com.education.ws.entities.Users;
+
 
 public interface ExamCalendarRepository extends JpaRepository<ExamCalendar,Long>{
 
