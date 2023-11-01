@@ -1,5 +1,7 @@
 package com.education.ws.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Service;
@@ -23,6 +25,10 @@ public class ExamService {
 	
 	public Exam getById(Long id) {
 		return examRepository.findById(id).get(); 
+	}
+	
+	public List<Exam> getByExamName(String name) {
+		return examRepository.findByExamName(name);
 	}
 	
 	
