@@ -21,9 +21,9 @@ public class ExamService {
 	@Autowired
 	private ExamCalendarRepository examCalendarRepository;
 	
-	/*public Exam getById(Long id) {
-		return 
-	}*/
+	public Exam getById(Long id) {
+		return examRepository.findById(id).get(); 
+	}
 	
 	
 }
