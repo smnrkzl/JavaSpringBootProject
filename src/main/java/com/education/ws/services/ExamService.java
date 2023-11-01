@@ -45,4 +45,12 @@ public class ExamService {
 	   return examRepository.deleteByDateNameHour(name, hour,date);
 	  }
 	
+	public ExamBooklet save(ExamBooklet examBooklet) {
+		return examBookletRepository.save(examBooklet);
+	}
+	
+	
+	
+	
+	
 }
