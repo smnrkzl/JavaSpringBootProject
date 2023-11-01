@@ -3,7 +3,7 @@ package com.education.ws.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
+
 import org.springframework.stereotype.Service;
 
 import com.education.ws.entities.Exam;
@@ -34,12 +34,15 @@ public class ExamService {
 	}
 	
 	public void ExamBookletDelete(ExamBooklet examBooklet) {
-		examBookletRepository.deleteById(examBooklet); 
+		examBookletRepository.delete(examBooklet); 
 	}
 	
 	public void ExamCalendarDelete(ExamCalendar examCalendar) {
 		examCalendarRepository.delete(examCalendar); 
 	}
 	
+	public Exam deleteNameHourDate(String name, String hour, String date) {
+	   return examRepository.deleteByDateNameHour(name, hour,date);
+	  }
 	
 }

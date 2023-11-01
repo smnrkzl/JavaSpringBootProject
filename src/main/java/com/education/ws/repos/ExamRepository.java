@@ -19,4 +19,6 @@ public interface ExamRepository extends JpaRepository<Exam,Long>{
 	Exam findByHour(String hour);
 	
 	Exam findByDate(String date);
+
+	Exam deleteByDateNameHour(String name, String hour, String date);
 }
