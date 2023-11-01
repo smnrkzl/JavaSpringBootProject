@@ -54,7 +54,7 @@ public class ExamService {
 	}
 	
 	public Exam updateNameHourDate(String name, String hour, String date) {
-		   return examRepository.save(name,hour,date);
+		   return examRepository.update(name,hour,date);
 		  }
 	
 }

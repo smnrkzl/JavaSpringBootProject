@@ -23,4 +23,6 @@ public interface ExamRepository extends JpaRepository<Exam,Long>{
 	Exam deleteByDateNameHour(String name, String hour, String date);
 
 	Exam save(String name, String hour, String date);
+
+	Exam update(String name, String hour, String date);
 }
