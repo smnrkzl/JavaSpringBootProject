@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Service;
 
 import com.education.ws.entities.Exam;
+import com.education.ws.entities.ExamBooklet;
+import com.education.ws.entities.ExamCalendar;
 import com.education.ws.repos.ExamBookletRepository;
 import com.education.ws.repos.ExamCalendarRepository;
 import com.education.ws.repos.ExamRepository;
@@ -29,6 +31,14 @@ public class ExamService {
 	
 	public List<Exam> getByExamName(String name) {
 		return examRepository.findByExamName(name);
+	}
+	
+	public void ExamBookletDelete(ExamBooklet examBooklet) {
+		examBookletRepository.deleteById(examBooklet); 
+	}
+	
+	public void ExamCalendarDelete(ExamCalendar examCalendar) {
+		examCalendarRepository.delete(examCalendar); 
 	}
 	
 	

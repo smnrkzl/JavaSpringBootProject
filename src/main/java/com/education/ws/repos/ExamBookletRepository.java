@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.education.ws.entities.ExamBooklet;
 
 
-public interface ExamBookletRepository extends JpaRepository<ExamBookletRepository,Long> {
+public interface ExamBookletRepository extends JpaRepository<ExamBooklet,Long> {
 
 List<ExamBooklet> findByExamBookletId(Long Id) ;
 	
