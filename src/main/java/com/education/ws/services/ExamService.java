@@ -49,7 +49,9 @@ public class ExamService {
 		return examBookletRepository.save(examBooklet);
 	}
 	
-	
+	public ExamCalendar save(ExamCalendar examCalendar) {
+		return examCalendarRepository.save(examCalendar);
+	}
 	
 	
 	
