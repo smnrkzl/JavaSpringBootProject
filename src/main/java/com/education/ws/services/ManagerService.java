@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.ExamRepository;
+import com.education.ws.repos.ManagerRepository;
 import com.education.ws.repos.NotificationsRepository;
 import com.education.ws.repos.SecurityRepository;
 
@@ -13,6 +14,9 @@ public class ManagerService {
 
 	@Autowired
 	private ExamRepository examRepository;
+	
+	@Autowired
+	private ManagerRepository managerRepository;
 	
 	
 	@Autowired
