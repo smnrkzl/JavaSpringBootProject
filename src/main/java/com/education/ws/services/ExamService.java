@@ -53,6 +53,8 @@ public class ExamService {
 		return examCalendarRepository.save(examCalendar);
 	}
 	
-	
+	public Exam updateNameHourDate(String name, String hour, String date) {
+		   return examRepository.save(name,hour,date);
+		  }
 	
 }
