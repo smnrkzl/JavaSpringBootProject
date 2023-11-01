@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.education.ws.repos.ExamRepository;
+import com.education.ws.repos.NotificationsRepository;
 import com.education.ws.repos.SecurityRepository;
 
 @Service
@@ -16,5 +17,6 @@ public class ManagerService {
 	@Autowired
 	private SecurityRepository securityRepository;
 	
-	
+	@Autowired
+	private NotificationsRepository notificationsRepository;
 }
