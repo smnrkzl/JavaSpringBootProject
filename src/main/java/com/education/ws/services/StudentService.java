@@ -60,4 +60,10 @@ public class StudentService {
 	public void ExamDelete(Exam exam) {
 		examRepository.delete(exam); 
 	}
+	
+	
+	public Students updateNameMailPhoneNumber(String name, String mail, String phoneNumber) {
+		   return studentRepository.update(name,mail,phoneNumber);
+		  }
+	
 }

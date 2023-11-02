@@ -21,6 +21,8 @@ List<Students> findByStudentsId(Long userId) ;
 	List<Students> findByExam (String exam);
 	
 	List<Students> findByGroup (String group);
+
+	Students update(String name, String mail, String phoneNumber);
 	
 	
 }
