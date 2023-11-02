@@ -3,7 +3,9 @@ package com.education.ws.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.education.ws.entities.Courses;
 import com.education.ws.entities.Exam;
+import com.education.ws.entities.ExamBooklet;
 import com.education.ws.entities.Students;
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.ExamRepository;
@@ -28,5 +30,10 @@ public class StudentService {
 	
 	public Students getById(Long id) {
 		return studentRepository.findById(id).get(); 
+	}
+	
+	
+	public Courses save(Courses courses) {
+		return coursesRepository.save(courses);
 	}
 }
