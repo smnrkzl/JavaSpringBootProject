@@ -80,4 +80,7 @@ public class ManagerService {
 	public void ExamSave(Exam exam) {
 		examRepository.save(exam); 
 	}
+	public void ExamUpdate(Exam exam) {
+		examRepository.updateExam(exam); 
+	}
 }

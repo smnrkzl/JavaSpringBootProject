@@ -25,4 +25,6 @@ public interface ExamRepository extends JpaRepository<Exam,Long>{
 	Exam save(String name, String hour, String date);
 
 	Exam update(String name, String hour, String date);
+
+	void updateExam(Exam exam);
 }
