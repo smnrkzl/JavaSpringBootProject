@@ -16,5 +16,7 @@ List<Courses> findByCoursesId(Long coursesId) ;
 	List<Courses> findByGroups(String groups);
 	
 	List<Courses> findByManageCourses(String manageCourses);
+
+	void updateCourses(Courses courses);
 	
 }

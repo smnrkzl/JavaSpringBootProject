@@ -56,5 +56,7 @@ public class ManagerService {
 		coursesRepository.save(courses); 
 	}
 	
-	
+	public void CoursesUpdate(Courses courses) {
+		coursesRepository.updateCourses(courses); 
+	}
 }
