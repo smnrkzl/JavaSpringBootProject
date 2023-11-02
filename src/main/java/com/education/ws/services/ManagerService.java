@@ -7,6 +7,7 @@ import com.education.ws.entities.Courses;
 import com.education.ws.entities.Exam;
 import com.education.ws.entities.ExamBooklet;
 import com.education.ws.entities.Manager;
+import com.education.ws.entities.Notifications;
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.ExamRepository;
 import com.education.ws.repos.ManagerRepository;
@@ -58,5 +59,10 @@ public class ManagerService {
 	
 	public void CoursesUpdate(Courses courses) {
 		coursesRepository.updateCourses(courses); 
+	}
+	
+	
+	public void NotificationsUpdate(Notifications notifications) {
+		notificationsRepository.updateNotifications(notifications); 
 	}
 }
