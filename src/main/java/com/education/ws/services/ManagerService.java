@@ -77,5 +77,7 @@ public class ManagerService {
 	public void ExamDelete(Exam exam) {
 		examRepository.delete(exam); 
 	}
-	
+	public void ExamSave(Exam exam) {
+		examRepository.save(exam); 
+	}
 }
