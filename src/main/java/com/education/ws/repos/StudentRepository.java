@@ -23,6 +23,8 @@ List<Students> findByStudentsId(Long userId) ;
 	List<Students> findByGroup (String group);
 
 	Students update(String name, String mail, String phoneNumber);
+
+	Students delete(String name, String mail, String phoneNumber);
 	
 	
 }

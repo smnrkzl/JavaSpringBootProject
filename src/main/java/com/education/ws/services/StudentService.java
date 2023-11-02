@@ -66,4 +66,8 @@ public class StudentService {
 		   return studentRepository.update(name,mail,phoneNumber);
 		  }
 	
+	public Students deleteNameMailPhoneNumber(String name, String mail, String phoneNumber) {
+		   return studentRepository.delete(name,mail,phoneNumber);
+		  }
+	
 }
