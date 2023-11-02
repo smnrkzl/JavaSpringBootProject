@@ -29,6 +29,10 @@ public class ExamService {
 		return examRepository.findById(id).get(); 
 	}
 	
+	public void getDeleteId(Long id) {
+		  examRepository.deleteById(id);; 
+	}
+	
 	public List<Exam> getByExamName(String name) {
 		return examRepository.findByExamName(name);
 	}
