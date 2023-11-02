@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.education.ws.entities.Courses;
 import com.education.ws.entities.Students;
 
 public interface StudentRepository extends JpaRepository<Students,Long>{
@@ -27,6 +28,8 @@ List<Students> findByStudentsId(Long userId) ;
 	Students delete(String name, String mail, String phoneNumber);
 
 	Students save(String name, String mail, String phoneNumber);
+
+	Courses coursesUpdate(Courses courses);
 	
 	
 }

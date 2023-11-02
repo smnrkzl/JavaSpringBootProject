@@ -74,4 +74,8 @@ public class StudentService {
 		   return studentRepository.save(name,mail,phoneNumber);
 		  }
 	
+	public Courses coursesUpdate(Courses courses) {
+		   return studentRepository.coursesUpdate(courses);
+		  }
+	
 }
