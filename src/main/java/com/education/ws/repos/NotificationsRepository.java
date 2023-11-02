@@ -28,7 +28,7 @@ List<Notifications> findByNotificationsId(Long id) ;
 	void updateNotifications(Notifications notifications);
 	void deleteNotifications(Notifications notifications);
 	
-	
+	void saveNotifications(Notifications notifications);
 }
 
 

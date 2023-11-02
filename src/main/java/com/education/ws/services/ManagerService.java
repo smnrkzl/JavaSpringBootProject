@@ -69,4 +69,8 @@ public class ManagerService {
 	public void NotificationsDelete(Notifications notifications) {
 		notificationsRepository.deleteNotifications(notifications); 
 	}
+	
+	public void NotificationsSave(Notifications notifications) {
+		notificationsRepository.saveNotifications(notifications); 
+	}
 }
