@@ -15,6 +15,8 @@ List<Security> findBySecurityId(Long userId) ;
 	List<Security> findByMove(String move);
 	
 	List<Security> findByUser(String user);
+
+	void updateSecurity(Security security);
 	
 	
 }

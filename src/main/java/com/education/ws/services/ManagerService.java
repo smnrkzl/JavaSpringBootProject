@@ -91,4 +91,7 @@ public class ManagerService {
 	public void SecuritySave(Security security) {
 		securityRepository.save(security); 
 	}
+	public void SecurityUpdate(Security security) {
+		securityRepository.updateSecurity(security); 
+	}
 }
