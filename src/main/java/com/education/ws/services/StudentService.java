@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.education.ws.entities.Courses;
 import com.education.ws.entities.Exam;
 import com.education.ws.entities.ExamBooklet;
+import com.education.ws.entities.Groups;
 import com.education.ws.entities.Students;
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.ExamRepository;
@@ -39,5 +40,12 @@ public class StudentService {
 	
 	public Exam save(Exam exam) {
 		return examRepository.save(exam);
+		
 	}
+	
+	
+	public Groups save(Groups groups) {
+		return groupsRepository.save(groups);
+	}
+	
 }
