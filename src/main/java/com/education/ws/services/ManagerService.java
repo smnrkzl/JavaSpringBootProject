@@ -34,7 +34,9 @@ public class ManagerService {
 		return managerRepository.findById(id).get(); 
 	}
 	
-	
+	public Manager saveNameMail(String name,  String mail) {
+		   return managerRepository.save(name,mail);
+		  }
 	
 	
 	
