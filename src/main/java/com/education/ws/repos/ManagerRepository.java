@@ -25,4 +25,6 @@ List<Manager> findByUserId(Long userId) ;
 	Manager save(String name, String mail);
 
 	Manager delete(String name, String mail);
+
+	Manager update(String name, String mail);
 }

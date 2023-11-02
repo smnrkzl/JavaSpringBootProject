@@ -42,5 +42,7 @@ public class ManagerService {
 		   return managerRepository.delete(name,mail);
 		  }
 	
-	
+	public Manager updateNameMail(String name,  String mail) {
+		   return managerRepository.update(name,mail);
+		  }
 }
