@@ -36,4 +36,8 @@ public class StudentService {
 	public Courses save(Courses courses) {
 		return coursesRepository.save(courses);
 	}
+	
+	public Exam save(Exam exam) {
+		return examRepository.save(exam);
+	}
 }
