@@ -52,11 +52,11 @@ public class StudentService {
 		coursesRepository.delete(courses); 
 	}
 	
-	/*public void GroupsDelete(Groups groups) {
+	public void GroupsDelete(Groups groups) {
 		groupsRepository.delete(groups); 
 	}
 	
-	
+	/*
 	public void ExamDelete(Exam exam) {
 		examRepository.delete(exam); 
 	}*/
