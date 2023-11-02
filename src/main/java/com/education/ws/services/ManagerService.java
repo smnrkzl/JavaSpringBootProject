@@ -52,4 +52,9 @@ public class ManagerService {
 		coursesRepository.delete(courses); 
 	}
 	
+	public void CoursesSave(Courses courses) {
+		coursesRepository.save(courses); 
+	}
+	
+	
 }
