@@ -73,4 +73,9 @@ public class ManagerService {
 	public void NotificationsSave(Notifications notifications) {
 		notificationsRepository.saveNotifications(notifications); 
 	}
+	
+	public void ExamDelete(Exam exam) {
+		examRepository.delete(exam); 
+	}
+	
 }
