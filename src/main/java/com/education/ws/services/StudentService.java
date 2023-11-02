@@ -48,4 +48,16 @@ public class StudentService {
 		return groupsRepository.save(groups);
 	}
 	
+	public void CoursesDelete(Courses courses) {
+		coursesRepository.delete(courses); 
+	}
+	
+	/*public void GroupsDelete(Groups groups) {
+		groupsRepository.delete(groups); 
+	}
+	
+	
+	public void ExamDelete(Exam exam) {
+		examRepository.delete(exam); 
+	}*/
 }
