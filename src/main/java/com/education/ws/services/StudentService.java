@@ -82,6 +82,8 @@ public class StudentService {
 		   return studentRepository.examUpdate(exam);
 		  }
 	
-	
+	public Groups groupsUpdate(Groups groups) {
+		   return studentRepository.groupsUpdate(groups);
+		  }
 	
 }

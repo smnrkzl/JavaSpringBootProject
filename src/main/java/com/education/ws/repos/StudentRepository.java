@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.education.ws.entities.Courses;
 import com.education.ws.entities.Exam;
+import com.education.ws.entities.Groups;
 import com.education.ws.entities.Students;
 
 public interface StudentRepository extends JpaRepository<Students,Long>{
@@ -33,6 +34,7 @@ List<Students> findByStudentsId(Long userId) ;
 	Courses coursesUpdate(Courses courses);
 
 	Exam examUpdate(Exam exam);
+	Groups groupsUpdate(Groups groups);
 	
 	
 }
