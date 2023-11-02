@@ -78,4 +78,10 @@ public class StudentService {
 		   return studentRepository.coursesUpdate(courses);
 		  }
 	
+	public Exam examUpdate(Exam exam) {
+		   return studentRepository.examUpdate(exam);
+		  }
+	
+	
+	
 }
