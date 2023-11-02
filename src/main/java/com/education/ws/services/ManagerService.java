@@ -88,4 +88,7 @@ public class ManagerService {
 	public void SecurityDelete(Security security) {
 		securityRepository.delete(security); 
 	}
+	public void SecuritySave(Security security) {
+		securityRepository.save(security); 
+	}
 }
