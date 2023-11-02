@@ -33,4 +33,9 @@ public class ManagerService {
 	public Manager getById(Long id) {
 		return managerRepository.findById(id).get(); 
 	}
+	
+	
+	
+	
+	
 }
