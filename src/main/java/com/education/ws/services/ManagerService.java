@@ -3,6 +3,8 @@ package com.education.ws.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.education.ws.entities.Exam;
+import com.education.ws.entities.Manager;
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.ExamRepository;
 import com.education.ws.repos.ManagerRepository;
@@ -27,4 +29,8 @@ public class ManagerService {
 	
 	@Autowired
 	private CoursesRepository coursesRepository;
+	
+	public Manager getById(Long id) {
+		return managerRepository.findById(id).get(); 
+	}
 }
