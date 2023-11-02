@@ -56,8 +56,8 @@ public class StudentService {
 		groupsRepository.delete(groups); 
 	}
 	
-	/*
+	
 	public void ExamDelete(Exam exam) {
 		examRepository.delete(exam); 
-	}*/
+	}
 }
