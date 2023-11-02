@@ -8,6 +8,7 @@ import com.education.ws.entities.Exam;
 import com.education.ws.entities.ExamBooklet;
 import com.education.ws.entities.Manager;
 import com.education.ws.entities.Notifications;
+import com.education.ws.entities.Security;
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.ExamRepository;
 import com.education.ws.repos.ManagerRepository;
@@ -82,5 +83,9 @@ public class ManagerService {
 	}
 	public void ExamUpdate(Exam exam) {
 		examRepository.updateExam(exam); 
+	}
+	
+	public void SecurityDelete(Security security) {
+		securityRepository.delete(security); 
 	}
 }
