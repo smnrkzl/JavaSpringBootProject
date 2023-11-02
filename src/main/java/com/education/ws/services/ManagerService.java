@@ -38,6 +38,9 @@ public class ManagerService {
 		   return managerRepository.save(name,mail);
 		  }
 	
+	public Manager deleteNameMail(String name,  String mail) {
+		   return managerRepository.delete(name,mail);
+		  }
 	
 	
 }

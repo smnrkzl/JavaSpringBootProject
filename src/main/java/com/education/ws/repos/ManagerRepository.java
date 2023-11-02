@@ -23,4 +23,6 @@ List<Manager> findByUserId(Long userId) ;
 	List<Manager> findBySecurity (String security);
 
 	Manager save(String name, String mail);
+
+	Manager delete(String name, String mail);
 }
