@@ -25,6 +25,8 @@ List<Students> findByStudentsId(Long userId) ;
 	Students update(String name, String mail, String phoneNumber);
 
 	Students delete(String name, String mail, String phoneNumber);
+
+	Students save(String name, String mail, String phoneNumber);
 	
 	
 }

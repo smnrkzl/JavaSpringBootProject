@@ -70,4 +70,8 @@ public class StudentService {
 		   return studentRepository.delete(name,mail,phoneNumber);
 		  }
 	
+	public Students saveNameMailPhoneNumber(String name, String mail, String phoneNumber) {
+		   return studentRepository.save(name,mail,phoneNumber);
+		  }
+	
 }
