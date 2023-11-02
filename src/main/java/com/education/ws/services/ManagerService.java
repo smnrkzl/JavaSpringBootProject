@@ -65,4 +65,8 @@ public class ManagerService {
 	public void NotificationsUpdate(Notifications notifications) {
 		notificationsRepository.updateNotifications(notifications); 
 	}
+	
+	public void NotificationsDelete(Notifications notifications) {
+		notificationsRepository.deleteNotifications(notifications); 
+	}
 }

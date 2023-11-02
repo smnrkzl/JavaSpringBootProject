@@ -26,7 +26,7 @@ List<Notifications> findByNotificationsId(Long id) ;
 	List<Notifications> findByNumberPeoplePresent (String numberPeoplePresent);
 
 	void updateNotifications(Notifications notifications);
-	
+	void deleteNotifications(Notifications notifications);
 	
 	
 }
