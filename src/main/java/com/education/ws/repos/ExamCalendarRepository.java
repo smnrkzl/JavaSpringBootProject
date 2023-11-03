@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.education.ws.entities.ExamBooklet;
 import com.education.ws.entities.ExamCalendar;
 
 
@@ -20,7 +21,7 @@ List<ExamCalendar> findByExamCalendarId(Long examCalendarId) ;
 	
 	List<ExamCalendar> findByClosingDate(String closingDate);
 	
-	
+	ExamCalendar updateExamCalendar(ExamCalendar examCalendar);
 	
 	
 }

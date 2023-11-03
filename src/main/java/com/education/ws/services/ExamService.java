@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.education.ws.entities.Exam;
 import com.education.ws.entities.ExamBooklet;
 import com.education.ws.entities.ExamCalendar;
+import com.education.ws.entities.Security;
 import com.education.ws.repos.ExamBookletRepository;
 import com.education.ws.repos.ExamCalendarRepository;
 import com.education.ws.repos.ExamRepository;
@@ -68,5 +69,9 @@ public class ExamService {
 	public ExamBooklet examBookletUpdate(ExamBooklet examBooklet) {
 		   return examBookletRepository.examBookletUpdate(examBooklet);
 		  }
+	
+	public ExamCalendar ExamCalendarUpdate(ExamCalendar examCalendar) {
+		return examCalendarRepository.updateExamCalendar(examCalendar); 
+	}
 	
 }
