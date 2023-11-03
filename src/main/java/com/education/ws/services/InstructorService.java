@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.education.ws.entities.Courses;
 import com.education.ws.entities.Exam;
+import com.education.ws.entities.Groups;
 import com.education.ws.entities.Instructor;
 import com.education.ws.entities.Notifications;
 import com.education.ws.entities.Students;
@@ -62,5 +63,7 @@ public class InstructorService {
 	public void NotificationsSave(Notifications notifications) {
 		notificationsRepository.saveNotifications(notifications); 
 	}
-	
+	public void GroupsSave(Groups groups) {
+		groupsRepository.save(groups); 
+	}
 }
