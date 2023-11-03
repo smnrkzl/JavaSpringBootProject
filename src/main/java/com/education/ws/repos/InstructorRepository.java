@@ -30,6 +30,8 @@ List<Instructor> findByInstructorId(Long userId) ;
 	Instructor save(String name, String mail, String mail2);
 
 	Instructor delete(String name, String mail, String mail2);
+
+	Instructor update(String name, String mail, String mail2);
 	
 	
 }

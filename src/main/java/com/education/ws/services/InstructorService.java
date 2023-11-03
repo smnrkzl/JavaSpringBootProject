@@ -35,5 +35,7 @@ public class InstructorService {
 	public Instructor deleteNameMail(String name, String mail) {
 		   return ınstructorRepository.delete(name,mail,mail);
 		  }
-	
+	public Instructor updateNameMail(String name, String mail) {
+		   return ınstructorRepository.update(name,mail,mail);
+		  }
 }
