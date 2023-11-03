@@ -66,4 +66,8 @@ public class InstructorService {
 	public void GroupsSave(Groups groups) {
 		groupsRepository.save(groups); 
 	}
+	
+	public void GroupsDelete(Groups groups) {
+		groupsRepository.delete(groups); 
+	}
 }
