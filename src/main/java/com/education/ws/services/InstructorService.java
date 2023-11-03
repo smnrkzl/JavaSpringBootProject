@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.education.ws.entities.Exam;
 import com.education.ws.entities.Instructor;
+import com.education.ws.entities.Students;
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.GroupsRepository;
 import com.education.ws.repos.InstructorRepository;
@@ -27,5 +28,8 @@ public class InstructorService {
 		return ınstructorRepository.findById(id).get(); 
 	}
 	
+	public Instructor saveNameMail(String name, String mail) {
+		   return ınstructorRepository.save(name,mail,mail);
+		  }
 	
 }

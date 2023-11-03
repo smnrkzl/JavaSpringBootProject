@@ -26,6 +26,8 @@ List<Instructor> findByInstructorId(Long userId) ;
 	List<Instructor> findByInsGroup (String group);
 	
 	List<Instructor> findByPassword (String password);
+
+	Instructor save(String name, String mail, String mail2);
 	
 	
 }
