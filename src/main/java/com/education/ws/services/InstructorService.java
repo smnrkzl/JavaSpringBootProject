@@ -2,6 +2,7 @@ package com.education.ws.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.education.ws.entities.Courses;
 import com.education.ws.entities.Exam;
 import com.education.ws.entities.Instructor;
 import com.education.ws.entities.Students;
@@ -38,4 +39,9 @@ public class InstructorService {
 	public Instructor updateNameMail(String name, String mail) {
 		   return ınstructorRepository.update(name,mail);
 		  }
+	
+	public void CoursesDelete(Courses courses) {
+		coursesRepository.delete(courses); 
+	}
+	
 }
