@@ -43,5 +43,7 @@ public class InstructorService {
 	public void CoursesDelete(Courses courses) {
 		coursesRepository.delete(courses); 
 	}
-	
+	public void CoursesSave(Courses courses) {
+		coursesRepository.save(courses); 
+	}
 }
