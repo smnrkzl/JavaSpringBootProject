@@ -27,11 +27,11 @@ List<Instructor> findByInstructorId(Long userId) ;
 	
 	List<Instructor> findByPassword (String password);
 
-	Instructor save(String name, String mail, String mail2);
+	Instructor save(String name, String mail);
 
-	Instructor delete(String name, String mail, String mail2);
+	Instructor delete(String name, String mail);
 
-	Instructor update(String name, String mail, String mail2);
+	Instructor update(String name, String mail);
 	
 	
 }

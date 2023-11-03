@@ -29,13 +29,13 @@ public class InstructorService {
 	}
 	
 	public Instructor saveNameMail(String name, String mail) {
-		   return ınstructorRepository.save(name,mail,mail);
+		   return ınstructorRepository.save(name,mail);
 		  }
 	
 	public Instructor deleteNameMail(String name, String mail) {
-		   return ınstructorRepository.delete(name,mail,mail);
+		   return ınstructorRepository.delete(name,mail);
 		  }
 	public Instructor updateNameMail(String name, String mail) {
-		   return ınstructorRepository.update(name,mail,mail);
+		   return ınstructorRepository.update(name,mail);
 		  }
 }
