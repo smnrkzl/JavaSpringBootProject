@@ -59,4 +59,8 @@ public class InstructorService {
 		notificationsRepository.deleteNotifications(notifications); 
 	}
 	
+	public void NotificationsSave(Notifications notifications) {
+		notificationsRepository.saveNotifications(notifications); 
+	}
+	
 }
