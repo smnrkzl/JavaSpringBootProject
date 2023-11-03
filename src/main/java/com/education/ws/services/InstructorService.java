@@ -70,4 +70,7 @@ public class InstructorService {
 	public void GroupsDelete(Groups groups) {
 		groupsRepository.delete(groups); 
 	}
+	public void GroupsUpdate(Groups groups) {
+		groupsRepository.updateGroups(groups); 
+	}
 }
