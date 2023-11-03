@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.education.ws.entities.Courses;
 import com.education.ws.entities.Exam;
 import com.education.ws.entities.Instructor;
+import com.education.ws.entities.Notifications;
 import com.education.ws.entities.Students;
 import com.education.ws.repos.CoursesRepository;
 import com.education.ws.repos.GroupsRepository;
@@ -50,5 +51,7 @@ public class InstructorService {
 	public void CoursesUpdate(Courses courses) {
 		coursesRepository.updateCourses(courses); 
 	}
-	
+	public void NotificationsUpdate(Notifications notifications) {
+		notificationsRepository.updateNotifications(notifications); 
+	}
 }
