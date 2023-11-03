@@ -46,4 +46,9 @@ public class InstructorService {
 	public void CoursesSave(Courses courses) {
 		coursesRepository.save(courses); 
 	}
+	
+	public void CoursesUpdate(Courses courses) {
+		coursesRepository.updateCourses(courses); 
+	}
+	
 }
