@@ -23,9 +23,9 @@ public class InstructorService {
 	@Autowired
 	private InstructorRepository ınstructorRepository;
 	
-	/*public Instructor getById(Long id) {
-		return .findById(id).get(); 
-	}*/
+	public Instructor getById(Long id) {
+		return ınstructorRepository.findById(id).get(); 
+	}
 	
 	
 }
