@@ -21,6 +21,8 @@ List<ExamBooklet> findByExamBookletId(Long Id) ;
 	List<ExamBooklet> findByAlteration(String alteration);
 	
 	List<ExamBooklet> findByRegistrationDate(String registrationdate);
+
+	ExamBooklet examBookletUpdate(ExamBooklet examBooklet);
 	
 	
 }

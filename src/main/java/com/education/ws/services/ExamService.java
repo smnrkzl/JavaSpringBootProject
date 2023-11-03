@@ -49,11 +49,11 @@ public class ExamService {
 	   return examRepository.deleteByDateNameHour(name, hour,date);
 	  }
 	
-	public ExamBooklet save(ExamBooklet examBooklet) {
+	public ExamBooklet saveExamBooklet(ExamBooklet examBooklet) {
 		return examBookletRepository.save(examBooklet);
 	}
 	
-	public ExamCalendar save(ExamCalendar examCalendar) {
+	public ExamCalendar saveExamCalendar(ExamCalendar examCalendar) {
 		return examCalendarRepository.save(examCalendar);
 	}
 	
@@ -65,6 +65,8 @@ public class ExamService {
 		   return examRepository.save(name,hour,date);
 		  }
 	
-	
+	public ExamBooklet examBookletUpdate(ExamBooklet examBooklet) {
+		   return examBookletRepository.examBookletUpdate(examBooklet);
+		  }
 	
 }
