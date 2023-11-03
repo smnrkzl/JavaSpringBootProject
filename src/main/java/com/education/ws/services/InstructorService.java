@@ -32,4 +32,8 @@ public class InstructorService {
 		   return ınstructorRepository.save(name,mail,mail);
 		  }
 	
+	public Instructor deleteNameMail(String name, String mail) {
+		   return ınstructorRepository.delete(name,mail,mail);
+		  }
+	
 }
