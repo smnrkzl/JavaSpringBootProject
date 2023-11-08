@@ -1,10 +1,16 @@
 package com.education.ws.entities;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.Data;
 
+@Entity
+@Table(name="ınsgroup")
+@Data
 public class InsGroup {
 
 	@Id
@@ -14,7 +20,7 @@ public class InsGroup {
 	@OneToMany
 	private Groups groups;
 
-	public Groups getGroups() {
+	/*public Groups getGroups() {
 		return groups;
 	}
 
@@ -28,6 +34,6 @@ public class InsGroup {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
+	}*/
 	
 }
