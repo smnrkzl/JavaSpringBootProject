@@ -5,9 +5,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="groups")
+@Data
 public class Groups {
 	
 	@Id
@@ -16,7 +18,7 @@ public class Groups {
 	private String Description;
 	private String Courses;
 	//Courses diğer tablo olabilir bunu sistemden kontrol et
-	public Long getId() {
+	/*public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
@@ -33,6 +35,6 @@ public class Groups {
 	}
 	public void setCourses(String courses) {
 		Courses = courses;
-	}
+	}*/
 
 }
