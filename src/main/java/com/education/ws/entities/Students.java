@@ -9,9 +9,11 @@ import jakarta.persistence.Id;
 
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="students")
+@Data
 public class Students {
 
 	@Id
@@ -34,7 +36,7 @@ public class Students {
 	@ManyToOne
 	private StudCours studcours;
 	
-	public long getId() {
+	/*public long getId() {
 		return id;
 	}
 	public void setId(long id) {
@@ -87,7 +89,7 @@ public class Students {
 	}
 	public void setCourses(StudCours studcours) {
 		this.studcours = studcours;
-	}
+	}*/
 	
 	
 	
