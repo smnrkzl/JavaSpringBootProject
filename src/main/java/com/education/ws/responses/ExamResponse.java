@@ -7,7 +7,7 @@ import com.education.ws.entities.Exam;
 import lombok.Data;
 
 @Data
-public class ExamResponses {
+public class ExamResponse {
 
 	 Long id;
 	 Date date;
@@ -15,7 +15,7 @@ public class ExamResponses {
 	 String hour;
 	 String examBookletName;
 	 String examCalendarName;
-	public ExamResponses(Exam entity) {
+	public ExamResponse(Exam entity) {
 		super();
 		this.id = entity.getId();
 		this.date = entity.getDate();

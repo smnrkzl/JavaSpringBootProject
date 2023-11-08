@@ -1,15 +1,14 @@
 package com.education.ws.responses;
 
-import com.education.ws.entities.Courses;
-import com.education.ws.entities.Exam;
+
 import com.education.ws.entities.Instructor;
-import com.education.ws.entities.Notifications;
+
 
 
 import lombok.Data;
 
 @Data
-public class InstructorResponses {
+public class InstructorResponse {
  
 	 long id;
 	 String name;
@@ -19,7 +18,7 @@ public class InstructorResponses {
 	 String exam;
 	 
 	 
-	public InstructorResponses(Instructor entity) {
+	public InstructorResponse(Instructor entity) {
 		super();
 		this.id = entity.getId();
 		this.name = entity.getName();
