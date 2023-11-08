@@ -17,9 +17,9 @@ public class ExamCalendar {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private Date openingdate;
-	private Date closingdate;
-	private String examname;
+	private Date openingDate;
+	private Date closingDate;
+	private String examName;
 	private String hour;
 	
 	/*public Long getId() {

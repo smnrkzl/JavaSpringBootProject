@@ -13,12 +13,16 @@ public class ExamResponses {
 	 Date date;
 	 String name;
 	 String hour;
+	 String examBookletName;
+	 String examCalendarName;
 	public ExamResponses(Exam entity) {
 		super();
 		this.id = entity.getId();
 		this.date = entity.getDate();
 		this.name = entity.getName();
 		this.hour = entity.getHour();
+		this.examBookletName = entity.getExambooklet().getExamname();
+		this.examCalendarName = entity.getExamcalendar().getExamName();
 	}
 	 
 	 
