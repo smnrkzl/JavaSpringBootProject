@@ -22,36 +22,6 @@ public class ExamCalendar {
 	private String examName;
 	private String hour;
 	
-	/*public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public Date getOpeningdate() {
-		return openingdate;
-	}
-	public void setOpeningdate(Date openingdate) {
-		this.openingdate = openingdate;
-	}
-	public Date getClosingdate() {
-		return closingdate;
-	}
-	public void setClosingdate(Date closingdate) {
-		this.closingdate = closingdate;
-	}
-	public String getExamname() {
-		return examname;
-	}
-	public void setExamname(String examname) {
-		this.examname = examname;
-	}
-	public String getHour() {
-		return hour;
-	}
-	public void setHour(String hour) {
-		this.hour = hour;
-	}*/
 	
 	
 	

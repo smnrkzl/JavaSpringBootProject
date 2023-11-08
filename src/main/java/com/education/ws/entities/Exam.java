@@ -23,31 +23,8 @@ public class Exam {
 	
 	private String hour;
 	
-	ExamBooklet exambooklet;
-	ExamCalendar examcalendar;
+	ExamBooklet examBooklet;
+	ExamCalendar examCalendar;
 	
-	/*public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public Date getDate() {
-		return date;
-	}
-	public void setDate(Date date) {
-		this.date = date;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getHour() {
-		return hour;
-	}
-	public void setHour(String hour) {
-		this.hour = hour;
-	}*/
+	
 }

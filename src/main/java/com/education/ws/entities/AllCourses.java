@@ -17,32 +17,8 @@ public class AllCourses {
     private Long id;
 	private String record;
 	private String sources;
-	private String coursesname;
+	private String coursesName;
 	
 	
-	/*public String getRecord() {
-		return record;
-	}
-	public void setRecord(String record) {
-		this.record = record;
-	}
-	public String getSources() {
-		return sources;
-	}
-	public void setSources(String sources) {
-		this.sources = sources;
-	}
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public String getCoursesname() {
-		return coursesname;
-	}
-	public void setCoursesname(String coursesname) {
-		this.coursesname = coursesname;
-	}*/
 	
 }

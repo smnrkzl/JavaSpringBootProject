@@ -18,23 +18,5 @@ public class Security {
 	private String move;
 	private String user;
 	//user bilgisi için sistemi kontrol et belki başka bir tabloya ait olabilir
-	/*public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public String getMove() {
-		return move;
-	}
-	public void setMove(String move) {
-		this.move = move;
-	}
-	public String getUser() {
-		return user;
-	}
-	public void setUser(String user) {
-		this.user = user;
-	}*/
-
+	
 }

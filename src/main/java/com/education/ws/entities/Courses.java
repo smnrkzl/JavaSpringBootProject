@@ -18,6 +18,6 @@ public class Courses {
 	private Long id;
     Groups groups;
     private String courseName;
-    AllCourses allcourses;
-    ManageCourses managecourses;
+    AllCourses allCourses;
+    ManageCourses manageCourses;
 }

@@ -40,54 +40,7 @@ public class Instructor {
 	private String Password;
 	
 	
-	/*public long getId() {
-		return id;
-	}
-	public void setId(long id) {
-		this.id = id;
-	}
-	public String getName() {
-		return Name;
-	}
-	public void setName(String name) {
-		Name = name;
-	}
-	public String getMail() {
-		return Mail;
-	}
-	public void setMail(String mail) {
-		Mail = mail;
-	}
-	public String getPassword() {
-		return Password;
-	}
-	public void setPassword(String password) {
-		Password = password;
-	}
-	public InsGroup getInsGroup() {
-		return ınsgroup;
-	}
-	public void setInsGroup(InsGroup ınsgroup) {
-		this.ınsgroup = ınsgroup;
-	}
-	public Courses getCourses() {
-		return courses;
-	}
-	public void setCourses(Courses courses) {
-		this.courses = courses;
-	}
-	public Notifications getNotifications() {
-		return notifications;
-	}
-	public void setNotifications(Notifications notifications) {
-		this.notifications = notifications;
-	}
-	public Exam getExam() {
-		return exam;
-	}
-	public void setExam(Exam exam) {
-		this.exam = exam;
-	}*/
+	
 	
 
 }

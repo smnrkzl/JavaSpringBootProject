@@ -20,20 +20,5 @@ public class StudCours {
 	@OneToMany
 	private Courses courses;
 
-	/*public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public Courses getCourses() {
-		return courses;
-	}
-
-	public void setCourses(Courses courses) {
-		this.courses = courses;
-	}*/
 	
 }

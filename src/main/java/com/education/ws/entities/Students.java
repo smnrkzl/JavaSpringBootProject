@@ -25,71 +25,16 @@ public class Students {
 	private String mail;
 	
 	@ManyToOne
-	private StudGroup studgroup;
+	private StudGroup studGroup;
 	
 	@ManyToOne
-	private StudNotif studnotif;
+	private StudNotif studNotif;
 	
 	@ManyToOne
-	private StudExam studexam;
+	private StudExam studExam;
 	
 	@ManyToOne
-	private StudCours studcours;
-	
-	/*public long getId() {
-		return id;
-	}
-	public void setId(long id) {
-		this.id = id;
-	}
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
-	public String getPhonenumber() {
-		return phonenumber;
-	}
-	public void setPhonenumber(String phonenumber) {
-		this.phonenumber = phonenumber;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-	public String getMail() {
-		return mail;
-	}
-	public void setMail(String mail) {
-		this.mail = mail;
-	}
-	public StudGroup getStudGroups() {
-		return studgroup;
-	}
-	public void setGroups(StudGroup studgroup) {
-		this.studgroup = studgroup;
-	}
-	public StudNotif getStudNotifications() {
-		return studnotif;
-	}
-	public void setNotifications(StudNotif studnotif) {
-		this.studnotif = studnotif;
-	}
-	public StudExam getExam() {
-		return studexam;
-	}
-	public void setExam(StudExam studexam) {
-		this.studexam = studexam;
-	}
-	public StudCours getStudCourses() {
-		return studcours;
-	}
-	public void setCourses(StudCours studcours) {
-		this.studcours = studcours;
-	}*/
+	private StudCours studCours;
 	
 	
 	

@@ -20,20 +20,5 @@ public class StudNotif {
 	@OneToMany
 	private Notifications notifications;
 
-	/*public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public Notifications getNotifications() {
-		return notifications;
-	}
-
-	public void setNotifications(Notifications notifications) {
-		this.notifications = notifications;
-	}*/
-
+	
 }
