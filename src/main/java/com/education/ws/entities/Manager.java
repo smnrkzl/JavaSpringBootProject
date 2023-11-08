@@ -21,7 +21,7 @@ public class Manager {
 	private String mail;
 	private String name;
 	private String password;
-	private String phonenumber;
+	private String phoneNumber;
 	
 	@OneToMany(mappedBy = "manager", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	private Users users;

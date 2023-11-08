@@ -19,11 +19,11 @@ public class Users {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private Date registrationdate;
+	private Date registrationDate;
 	private String update;
 	private String role;
-	private String namesurname;
-	private String phonenumber;
+	private String nameSurname;
+	private String phoneNumber;
 	private String mail;
 	//veri tiplerini yazdığın kağitta 'gruplar' adından bir veri var bunun nereye bağlı olduğuna bak sistemd
 	/*public Long getId() {
