@@ -26,7 +26,7 @@ public class Exam {
 	ExamBooklet exambooklet;
 	ExamCalendar examcalendar;
 	
-	public Long getId() {
+	/*public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
@@ -49,5 +49,5 @@ public class Exam {
 	}
 	public void setHour(String hour) {
 		this.hour = hour;
-	}
+	}*/
 }
