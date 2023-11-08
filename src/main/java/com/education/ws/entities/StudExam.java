@@ -1,10 +1,16 @@
 package com.education.ws.entities;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.Data;
 
+@Entity
+@Table(name="studexam")
+@Data
 public class StudExam {
 
 	@Id
@@ -14,7 +20,7 @@ public class StudExam {
 	@OneToMany
 	private Exam exam;
 
-	public Long getId() {
+	/*public Long getId() {
 		return id;
 	}
 
@@ -28,6 +34,6 @@ public class StudExam {
 
 	public void setExam(Exam exam) {
 		this.exam = exam;
-	}
+	}*/
 	
 }
