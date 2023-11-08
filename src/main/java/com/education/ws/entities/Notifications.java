@@ -7,9 +7,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="notifications")
+@Data
 public class Notifications {
 
 	@Id
@@ -21,7 +23,9 @@ public class Notifications {
 	private String readingrate;
 	private String numberpeoplesaw;
 	private String numberpeoplesent;
-	public Long getId() {
+	
+	
+	/*public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
@@ -62,7 +66,7 @@ public class Notifications {
 	}
 	public void setNumberpeoplesent(String numberpeoplesent) {
 		this.numberpeoplesent = numberpeoplesent;
-	}
+	}*/
 	
 	
 }
