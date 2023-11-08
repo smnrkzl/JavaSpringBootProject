@@ -5,9 +5,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="security")
+@Data
 public class Security {
 	
 	@Id
@@ -16,7 +18,7 @@ public class Security {
 	private String move;
 	private String user;
 	//user bilgisi için sistemi kontrol et belki başka bir tabloya ait olabilir
-	public Long getId() {
+	/*public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
@@ -33,6 +35,6 @@ public class Security {
 	}
 	public void setUser(String user) {
 		this.user = user;
-	}
+	}*/
 
 }
