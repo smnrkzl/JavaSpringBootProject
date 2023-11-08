@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.education.ws.entities.Exam;
+import com.education.ws.exceptions.ExamNotFoundException;
 import com.education.ws.responses.ExamResponse;
 import com.education.ws.services.ExamService;
 
@@ -22,10 +23,11 @@ public class ExamController {
 	public ExamResponse getOneUser(@PathVariable Long ıd) {
 		Exam exam = examService.getById(ıd);
 		if(exam == null) {
-			throw new UserNotFoundException();
+			throw new ExamNotFoundException();
 		}
 		return new ExamResponse(exam);
 	}
+	
 	
 	
 }
