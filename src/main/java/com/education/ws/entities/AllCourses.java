@@ -5,10 +5,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="allcourses")
-
+@Data
 public class AllCourses {
 	
 	@Id
@@ -17,7 +18,9 @@ public class AllCourses {
 	private String record;
 	private String sources;
 	private String coursesname;
-	public String getRecord() {
+	
+	
+	/*public String getRecord() {
 		return record;
 	}
 	public void setRecord(String record) {
@@ -40,6 +43,6 @@ public class AllCourses {
 	}
 	public void setCoursesname(String coursesname) {
 		this.coursesname = coursesname;
-	}
+	}*/
 	
 }
