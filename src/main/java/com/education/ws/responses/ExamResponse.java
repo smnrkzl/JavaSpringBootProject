@@ -21,8 +21,8 @@ public class ExamResponse {
 		this.date = entity.getDate();
 		this.name = entity.getName();
 		this.hour = entity.getHour();
-		this.examBookletName = entity.getExambooklet().getExamname();
-		this.examCalendarName = entity.getExamcalendar().getExamName();
+		this.examBookletName = entity.getExamBooklet().getExamname();
+		this.examCalendarName = entity.getExamCalendar().getExamName();
 	}
 	 
 	 
