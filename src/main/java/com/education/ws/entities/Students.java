@@ -19,8 +19,8 @@ public class Students {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-	private String username;
-	private String phonenumber;
+	private String userName;
+	private String phoneNumber;
 	private String password;
 	private String mail;
 	
