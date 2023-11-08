@@ -8,10 +8,12 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 
 @Entity
 @Table(name="users")
+@Data
 public class Users {
 	
 	@Id
@@ -24,7 +26,7 @@ public class Users {
 	private String phonenumber;
 	private String mail;
 	//veri tiplerini yazdığın kağitta 'gruplar' adından bir veri var bunun nereye bağlı olduğuna bak sistemd
-	public Long getId() {
+	/*public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
@@ -65,7 +67,7 @@ public class Users {
 	}
 	public void setMail(String mail) {
 		this.mail = mail;
-	}
+	}*/
 	
 
 }
