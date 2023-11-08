@@ -17,6 +17,7 @@ public class Courses {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
     Groups groups;
+    private String courseName;
     AllCourses allcourses;
     ManageCourses managecourses;
 }

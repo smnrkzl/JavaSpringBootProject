@@ -21,8 +21,8 @@ public class Instructor {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-	private String Name;
-	private String Mail;
+	private String name;
+	private String mail;
 	
 	@OneToMany(mappedBy = "instructor", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	private Courses courses;

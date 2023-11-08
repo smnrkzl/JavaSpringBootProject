@@ -18,6 +18,7 @@ public class Notifications {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private Date date;
+	private String notificationsName;
 	private String writer;
 	private String subject;
 	private String readingrate;
