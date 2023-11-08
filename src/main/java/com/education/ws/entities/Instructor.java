@@ -11,9 +11,11 @@ import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="instructor")
+@Data
 public class Instructor {
 	
 	@Id
@@ -36,7 +38,9 @@ public class Instructor {
 	private InsGroup ınsgroup;
 	
 	private String Password;
-	public long getId() {
+	
+	
+	/*public long getId() {
 		return id;
 	}
 	public void setId(long id) {
@@ -83,7 +87,7 @@ public class Instructor {
 	}
 	public void setExam(Exam exam) {
 		this.exam = exam;
-	}
+	}*/
 	
 
 }
