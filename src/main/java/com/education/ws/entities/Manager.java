@@ -8,9 +8,11 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="manager")
+@Data
 public class Manager {
 	
 	@Id
@@ -36,7 +38,7 @@ public class Manager {
 	@OneToMany(mappedBy = "manager", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	private Security security;
 	
-	public long getId() {
+	/*public long getId() {
 		return id;
 	}
 	public void setId(long id) {
@@ -95,6 +97,6 @@ public class Manager {
 	}
 	public void setSecurity(Security security) {
 		this.security = security;
-	}
+	}*/
 
 }
