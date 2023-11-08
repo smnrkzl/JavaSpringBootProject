@@ -5,9 +5,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name="managecourses")
+@Data
 public class ManageCourses {
 
 	@Id
@@ -16,7 +18,8 @@ public class ManageCourses {
 	private String date;
 	private String courses;
 	private String descriptions;
-	public Long getId() {
+	
+	/*public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
@@ -39,7 +42,7 @@ public class ManageCourses {
 	}
 	public void setDescriptions(String descriptions) {
 		this.descriptions = descriptions;
-	}
+	}*/
 
 	
 }
